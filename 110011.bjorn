@@ -1513,10 +1513,10 @@ function x(){
 	$_x = ("<div style='Margin:1%;Border:1px Solid rgba(0,0,0,0.4);Border-Radius:2px;Width:94%;Padding:2%;Display:Inline-Block;Background-Color:rgba(0,0,0,0.2);'>");
 	$_x .= ("<h2>Host Checker: </h2>");
 	$_x .= ("<form method='POST' action='//".$_SERVER["HTTP_HOST"]."/' style='Width:320px;Height:120px;Border:2px Solid rgba(255,255,255,0.4);Border-Radius:2%;Display:Inline-Block;'>");
-	$_x .= ("<input type='TEXT' placeholder='Target Host' autocomplete='off' name='hostname' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;Outline:None;'/>");
-	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;'/>");
-	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;'/>");
-	$_x .= ("<select name='spearhead'>");
+	$_x .= ("<input type='TEXT' placeholder='Target Host' autocomplete='off' name='hostname' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<select name='spearhead' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;'>");
 	$_x .= ("<option value='POST'>POST Method</option>");
 	$_x .= ("<option value='GET'>GET Method</option>");
 	$_x .= ("<option value='PUT'>PUT Method</option>");
