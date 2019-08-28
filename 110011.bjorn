@@ -1511,8 +1511,8 @@ function y($_url,$_method){
 }
 function x(){
 	$_x = ("<div style='Margin:1%;Border:1px Solid rgba(0,0,0,0.4);Border-Radius:2px;Width:94%;Padding:2%;Display:Inline-Block;Background-Color:rgba(0,0,0,0.2);'>");
-	$_x .= ("<h2>Host Checker: </h2>");
 	$_x .= ("<form method='POST' action='//".$_SERVER["HTTP_HOST"]."/' style='Width:320px;Height:120px;Border:2px Solid rgba(255,255,255,0.4);Border-Radius:2%;Display:Inline-Block;'>");
+	$_x .= ("<h2 style='@font-face{Font-Family:Bjorn;src:url('//".$_SERVER["HTTP_HOST"]."/bjorn.woff2') format('woff2'),url('//".$_SERVER["HTTP_HOST"]."/bjorn.woff') format('woff'),url('//".$_SERVER["HTTP_HOST"]."/bjorn.ttf') format('truetype');Font-Family:Bjorn;'>BjornVPN Host Checker: </h2>");
 	$_x .= ("<input type='TEXT' placeholder='Target Host / Host Checker' autocomplete='off' name='hostname' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
 	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
 	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
