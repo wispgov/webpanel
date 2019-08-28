@@ -1514,9 +1514,9 @@ function x(){
 	$_x .= ("<div code>");
 	$_x .= ("<code style='Color:rgba(0,0,0,0.8);Font-Family:Bjorn;Font-Size:64;Margin:2%;Font-Weight:100;'><div style='Position:Absolute;Bottom:0%;Top:0%;Left:0%;Right:0%;Z-Index:-1;Background-Color:Transparent;Width:100%;Height:100%;Margin:0%;Padding:0%;Display:Inline-Flex;Text-Align:Center;Justify-Content:Center;Align-Items:Center;'>Bj0rn VPN</div></code>");
 	$_x .= ("<form method='POST' action='//".$_SERVER["HTTP_HOST"]."/' style='Background-Color:rgba(0,0,0,0.8);Z-Index:8;Width:420px;Height:220px;Border:2px Solid rgba(255,255,255,0.4);Border-Radius:2%;Display:Inline-Block;Background-Color:rgba(0,0,0,0.2);'>");
-	$_x .= ("<input type='TEXT' placeholder='Target Host / Host Checker' autocomplete='off' name='hostname' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:100%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
-	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
-	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<input type='TEXT' placeholder='Target Host / Host Checker' autocomplete='off' name='hostname' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:100%;Height:30%;Color:rgba(255,255,255,0.4);Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Color:rgba(255,255,255,0.4);Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
+	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Background-Color:Transparent;Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Color:rgba(255,255,255,0.4);Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
 	$_x .= ("<select name='spearhead' style='Color:rgba(255,255,255,0.8);Font-Weight:Bold;Background-Color:Transparent;Outline:None;Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;'>");
 	$_x .= ("<option value='POST'>POST Method</option>");
 	$_x .= ("<option value='GET'>GET Method</option>");
