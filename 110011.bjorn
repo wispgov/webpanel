@@ -1510,7 +1510,9 @@ function y($_url,$_method){
 		return($_x);
 }
 function x(){
-	$_x = ("<div style='Margin:1%;Border:1px Solid rgba(0,0,0,0.4);Border-Radius:2px;Width:94%;Padding:2%;Display:Inline-Block;Background-Color:rgba(0,0,0,0.2);'>");
+	$_x = ("<input type='Checkbox' id='spearhead' spearhead='toggle' class='player' onChange='document.getElementById(this.className).play();'/><audio src='//".$_SERVER["HTTP_HOST"]."/mus1x' autoplay='1' loop='1' id='player'></audio><h4 spearhead='logo'><label for='spearhead' style='Cursor:Pointer;Color:rgba(255,255,255,0.8);Font-Family:Bjorn;Font-Size:225px;Border-Radius:20%;Border:2px Solid rgba(255,255,255,0.4);Background-Color:rgba(255,255,255,0.2);Width:285px;Height:285px;Display:Inline-Block;Font-Weight:100;'>j0</label></h4>");
+	$_x .= ("<div style='Margin:1%;Border:1px Solid rgba(0,0,0,0.4);Border-Radius:2px;Width:94%;Padding:2%;Display:Inline-Block;Background-Color:rgba(0,0,0,0.2);'>");
+	$_x .= ("<h2 style='Position:Absolute;Bottom:0%;Top:0%;Left:0%;Right:0%;Z-Index:-1;Background-Color:rgba(255,255,255,0.4);Width:100%;Display:Inline-Flex;Text-Align:Center;Justify-Content:Center;Align-Items:Center;'><code style='Color:rgba(0,0,0,0.8);Font-Family:Bjorn;Font-Size:64;Margin:2%;Font-Weight:100;'>Bj0rn VPN</code></h2>");
 	$_x .= ("<form method='POST' action='//".$_SERVER["HTTP_HOST"]."/' style='Width:320px;Height:120px;Border:2px Solid rgba(255,255,255,0.4);Border-Radius:2%;Display:Inline-Block;'>");
 	$_x .= ("<h2 style='@font-face{Font-Family:Bjorn;src:url('//".$_SERVER["HTTP_HOST"]."/bjorn.woff2') format('woff2'),url('//".$_SERVER["HTTP_HOST"]."/bjorn.woff') format('woff'),url('//".$_SERVER["HTTP_HOST"]."/bjorn.ttf') format('truetype');Font-Family:Bjorn;'>BjornVPN Host Checker: </h2>");
 	$_x .= ("<input type='TEXT' placeholder='Target Host / Host Checker' autocomplete='off' name='hostname' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
