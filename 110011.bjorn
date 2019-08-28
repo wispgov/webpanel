@@ -1516,7 +1516,7 @@ function x(){
 	$_x .= ("<input type='TEXT' placeholder='Target Host' autocomplete='off' name='hostname' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
 	$_x .= ("<input type='TEXT' placeholder='Proxy Host' autocomplete='off' name='proxy_host' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
 	$_x .= ("<input type='TEXT' placeholder='Proxy Port' autocomplete='off' name='proxy_port' style='Border:None;Margin:0%;Padding:0%;Width:50%;Height:30%;Display:Inline-Block;Outline:None;Text-Align:Center;'/>");
-	$_x .= ("<select name='spearhead' style='Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;'>");
+	$_x .= ("<select name='spearhead' style='Outline:None;Border:None;Margin:0%;Padding:0%;Width:100%;Height:20%;Display:Inline-Block;'>");
 	$_x .= ("<option value='POST'>POST Method</option>");
 	$_x .= ("<option value='GET'>GET Method</option>");
 	$_x .= ("<option value='PUT'>PUT Method</option>");
