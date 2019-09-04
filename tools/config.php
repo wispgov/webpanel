@@ -31,7 +31,7 @@
     $language = 'en';
 
     // list of network interfaces monitored by vnStat
-    $iface_list = array('tun0');
+    $iface_list = array('tun0','eth0');
 
     //
     // optional names for interfaces
@@ -39,7 +39,7 @@
     // will be displayed instead
     //    
     $iface_title['tun0'] = 'BjornVPN';
-
+    $iface_title['eth0'] = 'Main VPN';
     //
     // There are two possible sources for vnstat data. If the $vnstat_bin
     // variable is set then vnstat is called directly from the PHP script
