@@ -1,4 +1,5 @@
 * {margin:0; padding:0;}
+hr {Border:1px Solid rgba(255,255,255,0.8);}
 a {Color:rgba(255,255,255,0.8);Text-Decoration:None;}
 html,body {Width:100vw;Height:100vh;Display:Inline-Flex;Justify-Content:Center;Text-Align:Center;Align-Items:Center;Margin:0%;Padding:0%;Overflow:Hidden;}
 body {background:#2f2f2f; font-family:Verdana; font-size:12px;}
