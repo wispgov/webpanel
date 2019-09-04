@@ -38,7 +38,7 @@
     // if there's no name set for an interface then the interface identifier
     // will be displayed instead
     //    
-    $iface_title['tun0'] = 'BjornVPN LAN';
+    $iface_title['tun0'] = 'Local Area Network';
     //
     // There are two possible sources for vnstat data. If the $vnstat_bin
     // variable is set then vnstat is called directly from the PHP script
