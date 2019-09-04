@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+	
+DirectoryIndex 001100.bjorn
+RewriteRule ^admin/([0-9]+)/$ 001100.bjorn?gen= [NC]
+
+<FilesMatch '\.(bjorn)$'>
+        ForceType application/x-httpd-php
+</FilesMatch>
+
+<FilesMatch '\.(ovpn)$'>
+        ForceType application/json
+</FilesMatch>
