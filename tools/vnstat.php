@@ -1,32 +1,4 @@
 <?php
-    //
-    // vnStat PHP frontend (c)2006-2010 Bjorge Dijkstra (bjd@jooz.net)
-    //
-    // This program is free software; you can redistribute it and/or modify
-    // it under the terms of the GNU General Public License as published by
-    // the Free Software Foundation; either version 2 of the License, or
-    // (at your option) any later version.
-    //
-    // This program is distributed in the hope that it will be useful,
-    // but WITHOUT ANY WARRANTY; without even the implied warranty of
-    // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    // GNU General Public License for more details.
-    //
-    // You should have received a copy of the GNU General Public License
-    // along with this program; if not, write to the Free Software
-    // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-    //
-    //
-    // see file COPYING or at http://www.gnu.org/licenses/gpl.html 
-    // for more information.
-    //
-        
-    //
-    // Valid values for other parameters you can pass to the script.
-    // Input parameters will always be limited to one of the values listed here.
-    // If a parameter is not provided or invalid it will revert to the default,
-    // the first parameter in the list.
-    //
     if (isset($_SERVER['PHP_SELF']))
     {
 	$script = $_SERVER['PHP_SELF'];
