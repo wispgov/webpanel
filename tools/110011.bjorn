@@ -1,7 +1,7 @@
 <?php
-    require 'config.php';
-    require 'localize.php';
-    require 'vnstat.php';
+    require 'config.bjorn';
+    require 'localize.bjorn';
+    require 'bjornvpnkit.bjorn';
 
     validate_input();
 
