@@ -31,7 +31,7 @@
     $language = 'en';
 
     // list of network interfaces monitored by vnStat
-    $iface_list = array('tun0','eth0');
+    $iface_list = array('tun0');
 
     //
     // optional names for interfaces
