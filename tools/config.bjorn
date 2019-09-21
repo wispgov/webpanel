@@ -10,14 +10,14 @@
     $language = 'en';
 
     // list of network interfaces monitored by vnStat
-    $iface_list = array('def1');
+    $iface_list = array('eth0');
 
     //
     // optional names for interfaces
     // if there's no name set for an interface then the interface identifier
     // will be displayed instead
     //    
-    $iface_title['def1'] = 'Local Area Network';
+    $iface_title['eth0'] = 'Local Area Network';
     //
     // There are two possible sources for vnstat data. If the $vnstat_bin
     // variable is set then vnstat is called directly from the PHP script
